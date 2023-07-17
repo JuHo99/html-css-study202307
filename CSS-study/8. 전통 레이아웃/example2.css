@@ -1,0 +1,86 @@
+
+.main {
+    width: 650px;
+    margin: 10px auto 0;
+    background: lightgray;
+    border: 3px double black;
+}
+.main .main-title{
+    font-size: 2.0em;
+    font-family: '궁서체' ,serif;
+    font-weight: 700;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin: 15px;
+}
+.main .sub-title{
+    padding: 8px;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    display: block;
+    background: rgb(71, 71, 71);
+}
+
+.main .sub-title .text-yellow{
+    color: yellow;
+    font-size: 1.1em;
+}
+
+.main .container{
+    background: gray;
+    padding: 15px 5px;
+    font-weight: 700;
+}
+.main .container .box{
+    width: 24.4%;
+    float: left;
+    height: 70vh;
+    font-size: 0.95em;
+}
+#box1{
+    background: red;
+    padding: 5px;
+    margin-right: 5px;
+}
+#box1 .flower{
+    width: 100%;
+    height: 50%;
+    background:  url(../../KakaoTalk_20230713_150813940.jpg) no-repeat top/cover;
+    margin-bottom: 15px;
+}
+
+#box2{
+    background: rgb(235, 46, 235);
+    padding: 5px;
+    margin-right: 5px;
+}
+#box2 .flower{
+    width: 100%;
+    height: 50%;
+    background:  url(../../2.jpg) no-repeat top/cover;
+    margin-bottom: 15px;
+}
+
+#box3{
+    background: rgb(255, 115, 0);
+    padding: 5px;
+    margin-right: 5px;
+}
+#box3 .flower{
+    width: 100%;
+    height: 50%;
+    background:  url(../../1.jpg) no-repeat top/cover;
+    margin-bottom: 15px;
+}
+
+#box4{
+    background: rgb(243, 247, 32);
+    padding: 5px;
+}
+#box4 .flower{
+    width: 100%;
+    height: 50%;
+    background:  url(../../3.jpg) no-repeat top/cover;
+    margin-bottom: 15px;
+}
