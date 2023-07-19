@@ -1,0 +1,41 @@
+#header-main {
+  width: 100%;
+  background: #000;
+  display: flex;
+  color: #fff;
+}
+#header-main .logo {
+  display: block;
+  width: 20%;
+  min-width: 240px;
+  height: 10vh;
+  background: url(brs-logo.png) no-repeat center/contain;
+}
+#header-main .menuber {
+  /* background: yellowgreen; */
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+}
+#header-main .menuber a{
+    display: block;
+    width: 22%;
+    height: 30px;
+}
+#header-main .menuber .menu{
+    /* border: 1px solid #000; */
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+#header-main .menuber .login{
+    width: 50px;
+    height: 25px;
+    padding: 3px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
