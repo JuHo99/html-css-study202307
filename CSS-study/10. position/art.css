@@ -1,0 +1,134 @@
+@import url(../../common.css);
+body{
+    background: #5e5e5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#wrapper{
+    background:#fff;
+    width: 80%;
+}
+#wrapper header {
+    width: 100%;
+    background: rgb(255, 166, 0);
+    color: #fff;
+}
+#wrapper header h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 700;
+    gap: 15px;
+}
+#wrapper header h1 span{
+    font-size: 13px;
+    font-weight: 400;
+}
+#wrapper header .stit{
+    background: rgb(194, 194, 194);
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.container .side-menu{
+    width: 30%;
+}
+.container .side-menu h3{
+    background: rgb(136, 0, 0);
+    color: #fff;
+    font-size: 11px;
+    padding: 10px;
+}
+.container .side-menu ul{
+    color: #123456;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.container .side-menu ul a{
+    border-bottom: 1px solid #123456;
+}
+
+.container .main-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background: gainsboro;
+    padding: 7px;
+    font-size: 7px;
+    gap: 10px;
+    color: #123456;
+}
+.container .main-content .art-piece .title{
+    background: #123456;
+    padding: 3px;
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.container .main-content .art-piece .artist{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.container .main-content .art-piece .detail{
+    font-size: 7px;
+    margin: 10px;
+}
+
+
+.container .banner{
+    width: 25%;
+    font-size: 10px;
+    padding: 10px 5px;
+}
+.container .banner h3{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.container .banner h3 .all{
+    color: rgb(122, 122, 122);
+    text-decoration: underline ;
+    text-decoration-color : rgb(122, 122, 122);
+}
+.container .banner h3 .love{
+    color: rgb(255, 137, 2);
+    text-decoration: underline ;
+    text-decoration-color : rgb(255, 137, 2);
+}
+.container .banner .link{
+    display: flex;
+    flex-direction: column;
+    font-size: 7px;
+    gap: 7px;
+}
+.container .banner .link a{
+    font-weight: 700;
+    text-decoration: underline ;
+    display: block;
+}
+
+
+footer{
+    background: #123456;
+    text-align: center;
+    font-size: 7px;
+    padding: 10px;
+    color: #fff;
+}
