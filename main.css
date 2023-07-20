@@ -1,5 +1,5 @@
 /* common style */
-@import url(common.css);
+
 @import url(include.css);
 body{
     font-family: 'Montserrat' ,sans-serif;
@@ -8,8 +8,30 @@ body{
 #product-overview{
     background: url(KakaoTalk_20230717_102146471.jpg) no-repeat center /cover;
     height: calc(100vh - 97px);
+    margin-top: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+#product-overview h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.95) ;
+    animation: drop 2s linear;
+}
+@keyframes drop{
+    0%{
+        color: #fff;
+        opacity: 0;
+        transform:  translateY(-100px);
+    }
+    100%{
+        color:gold;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 /* choose plan style */
 #plans{
     /* background: orange; */
