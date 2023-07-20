@@ -82,7 +82,7 @@ header .gnb ul {
   line-height: 1.7;
 }
 header .gnb ul li:hover,
-header .gnb ul li:active {
+header .gnb ul li.active {
   color: #fff;
 }
 
