@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    align-items: center;
 }
 .main-header h1{
     /* float: left; */
@@ -58,6 +59,10 @@
     border: none;
     color: #ff1b68;
     background: #fff;
+}
+/* 모바일 전용 버튼 */
+.main-header .mobile-menu-btn{
+    display: none;
 }
 
 /* footer */
