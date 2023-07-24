@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main{
+    background: rgb(255, 227, 231);
+    border: 5px solid rgb(207, 170, 176);
+    width: 70%;
+    margin: 15px auto 0;
+    padding: 10px;
+}
+.main .title{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 5px auto 10px;
+    text-align: center;
+}
+
+.main .container{
+    line-height: 1.2;
+    text-align: justify;
+}
+
+
+.container .green-tea {
+    width: 46%;
+    background: #dda;
+    float: left;
+    padding: 10px;
+}
+.container .coffee {
+    width: 46%;
+    background: rgba(184, 164, 113, 0.884);
+    float: right;
+    padding: 10px;
+}

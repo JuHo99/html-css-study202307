@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing : border-box 
+        }
+        .container{
+            width: 300px;
+            height: 250px;
+            border: 4px solid gray;
+            overflow: auto;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background: red;
+            border: 4px solid orange;
+            font-size: 40px;
+        }
+        .album{
+            width: 300px;
+            height: 300px;
+            border: 2px gray solid;
+            margin: 100px auto;
+            padding: 40px;
+        }
+        .img-box{
+            height: 200px;
+            border: 2px solid lightgray;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .img-box img{
+            width: 100%;
+
+            /* opacity: 0.3; */
+        }
+    </style>
+</head>
+<body>
+    <div class="album">
+        <div class="img-box">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMDVfMTk1%2FMDAxNjM4NzEwNjMzNjI4.tEVo__L0lg6oyKvXJyRGw0Wt3vgDXcub4_THb6HQpPMg.1GQGP3ccE92S8OLp5o0PpKOHju17455zLxs99JRVYlMg.JPEG.icedarkdragon%2FIMG_0964.JPG&type=sc960_832" alt="잼민루피">
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+</body>
+</html>
